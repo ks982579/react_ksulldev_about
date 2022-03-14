@@ -1,0 +1,29 @@
+.cont-reset {
+    display: block;
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+    border: solid black 2px;
+    background-color: aliceblue;
+}
+.res-list {
+    padding:0;
+}
+.response li{
+    padding:0;
+}
+.cont-company-name {
+    margin:5px 0 5px 0;
+    padding: 0 2px 0 2px;
+    font-size: 22pt;
+    text-decoration: underline;
+}
+.cont-job-title {
+    margin: 5px 0 5px 0;
+    padding: 0 2px 0 2px;
+    font-size: 18pt;
+}
+.cont-dates {
+    margin:5px 0 5px 0;
+    padding: 0 2px 0 2px;
+}

@@ -1,0 +1,28 @@
+.info-container * {
+    padding:0;
+    margin:0;
+}
+.info-container {
+    flex-grow: 5;
+}
+.component-a-container {
+    border: solid gray 2px;
+    background-color: azure;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.content-company-name {
+    padding: 0;
+    margin:0;
+}
+.content-job-title{
+    padding:0;
+    margin:0;
+}
+.content-dates {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0;
+    padding:5px;
+}

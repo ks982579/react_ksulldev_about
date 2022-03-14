@@ -1,0 +1,10 @@
+.side-list {
+    flex: 0 0 250px;
+    border: darkblue solid 2px;
+    border-right: none;
+}
+.side-list ul, li {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+}

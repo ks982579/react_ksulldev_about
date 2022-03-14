@@ -1,0 +1,12 @@
+.body-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.components-container {
+    flex-grow: 1;
+    border: darkblue solid 2px;
+    height:300px;
+    overflow-y:scroll;
+}

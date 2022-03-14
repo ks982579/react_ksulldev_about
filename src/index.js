@@ -1,17 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM, { render } from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {CanvasPixelEffects} from './customKit/grandHeader';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function WebPage(){
+  return (
+    <React.Fragment>
+      <App/>
+    </React.Fragment>
+  );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const DOMRoot = document.getElementById('root');
+
+ReactDOM.render(<WebPage/>,DOMRoot);
+
+const coolHeader = new CanvasPixelEffects("headerCanvas", "About Page");
+coolHeader.run()

@@ -1,0 +1,21 @@
+.cool-nav-bar{
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    background-color: aliceblue;
+
+}
+.nav-list{
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.nav-list li a{
+    color:black;
+    font-weight: 700;
+    text-decoration: none;
+}
